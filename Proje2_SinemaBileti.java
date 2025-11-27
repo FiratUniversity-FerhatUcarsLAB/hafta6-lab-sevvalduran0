@@ -1,7 +1,7 @@
 /**
  * Ad Soyad: [ŞEVVAL DURAN]
  * Öğrenci No: [240541088]
- * Proje: [NOT SİSTEMİ]
+ * Proje: [SİNEMA BİLETİ]
  * Tarih: [27.11]
  */
 import java.util.Scanner;
@@ -175,3 +175,4 @@ public class SinemaBiletiSistemi {
         }
     }
 }
+
