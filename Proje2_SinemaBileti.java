@@ -31,7 +31,7 @@ public class SinemaBiletiSistemi {
 
     
     public static double calculateDiscount(int yas, int meslek, int gun) {
-        // Yaş bazlı indirimler önce kontrol edilir
+        
         if (yas >= 65) return 0.30;   // %30
         if (yas < 12) return 0.25;    // %25
 
@@ -68,7 +68,7 @@ public class SinemaBiletiSistemi {
     
     public static double calculateFinalPrice(double base, double discount, double extra) {
         double indirimli = base - (base * discount);
-        // ensure price not negative (defensive)
+        
         if (indirimli < 0) indirimli = 0;
         return indirimli + extra;
     }
@@ -175,4 +175,5 @@ public class SinemaBiletiSistemi {
         }
     }
 }
+
 
