@@ -19,7 +19,7 @@ public class NotSistemi {
     public static char harfNotuGetir(double ort) {
         char harf;
 
-        // Switch-case kullanmak için önce aralık kodunu belirliyoruz
+        
         int kod;
         if (ort >= 90) kod = 1;
         else if (ort >= 85) kod = 2;
@@ -88,4 +88,5 @@ public class NotSistemi {
         System.out.println("Butunleme Hakki: " + (but ? "VAR" : "YOK"));
     }
 }
+
 
